@@ -46,9 +46,7 @@ export class PostBusiness {
         const comments: Post[] = await this.postDataBase.getComments(postOriginalId)
 
         const output: PostCommentOutputDTO = this.postDTO.createPostCommentOutputDTO(postOriginal, comments)
-        
-        console.log("Output: ", output)
-
+         
         return output
 
     }
