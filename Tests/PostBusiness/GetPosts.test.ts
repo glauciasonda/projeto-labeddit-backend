@@ -17,7 +17,7 @@ describe("GetPosts", () => {
 
     const result: PostOutputDTO[] = [
         {
-          id: 'post id mock 1',
+          id: 'post id mock 1',  
           content: 'fjkldjfoejoerieuorujflfjldjfeojoe',
           likes: 3,
           deslikes: 2,
